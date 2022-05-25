@@ -1,7 +1,7 @@
 # [Codewars](https://www.codewars.com/users/ruinaz90)
 Daily coding challenges. Aiming to do at least one each day.
 
-<img src="codewars.png">
+<img src="https://www.codewars.com/users/ruinaz90/badges/large">
 
 ## How It's Made
 **Tech used:** JavaScript

@@ -1,8 +1,4 @@
 function accum(s) {
-    let letters = s.split("")
-    let newLetters = []
-    for(let i = 0; i < letters.length; i++) {
-        newLetters[i] = letters[i].toUpperCase() + letters[i].toLowerCase().repeat(i)
-    }
-    return newLetters.join("-")
+    function accum(s) {
+    return s.split("").map((letter, index) => letter.toUpperCase() + letter.toLowerCase().repeat(index)).join("-")
 }

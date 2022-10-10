@@ -6,7 +6,7 @@ Daily coding challenges. Aiming to do at least one each day.
 ## How It's Made
 **Tech used:** JavaScript
 
-Over 100 challenges completed.
+Over 300 challenges completed.
 
 ## Optimizations
 I am always learning different ways to solve each problem to make them more efficient and more readable. I will often go back to refactor and optimize my code.

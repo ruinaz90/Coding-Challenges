@@ -1,4 +1,4 @@
-# Codewars
+# Coding Challenges
 Daily coding challenges. Aiming to do at least one each day.
 
 <a href="https://www.codewars.com/users/ruinaz90"><img src="https://www.codewars.com/users/ruinaz90/badges/large"></a>

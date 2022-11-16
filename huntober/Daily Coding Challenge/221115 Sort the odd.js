@@ -5,3 +5,5 @@ function sortArray(arr){
 
 console.log(sortArray([7, 1]),'[ 1, 7]')
 console.log(sortArray([5, 8, 6, 3, 4]),'[ 3, 8, 6, 5, 4 ]')
+
+//https://www.codewars.com/kata/578aa45ee9fd15ff4600090d

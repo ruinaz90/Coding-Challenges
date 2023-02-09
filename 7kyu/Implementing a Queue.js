@@ -5,12 +5,12 @@ var Queue = function() {
   
   Queue.prototype.enqueue = function(item) {
     // add item to the queue
-    this.queue.push(item)
+    return this.queue.unshift(item)
   };
   
   Queue.prototype.dequeue = function() {
     // remove item from the front of the queue and return its value
-    this.queue.pop()
+    return this.queue.pop()
   };
   
   Queue.prototype.size = function() {

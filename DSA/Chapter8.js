@@ -48,3 +48,17 @@ const string = "the quick brown box jumps over a lazy dog"
 console.log(missingLetter(string))
 
 /* 4. Write a function that returns the first non-duplicated character in a string. For example, the string, "minimum" has two characters that only exist once—the "n" and the "u", so your function should return the "n", since it occurs first. */
+function nonDupe(string) {
+    let hash = {}
+
+    for(let letter of string) {
+        hash[letter] = (hash[letter] || 0) + 1
+    }
+
+    for(let letter of string) {
+        if(hash[letter] == 1) return letter
+    }
+}
+
+const stringDupe = "minimum"
+console.log(nonDupe(stringDupe))

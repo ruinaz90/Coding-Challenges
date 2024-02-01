@@ -16,3 +16,6 @@ def intersect(array1, array2):
 arr1 = [1, 2, 3, 4, 5]
 arr2 = [0, 2, 4, 6, 8]
 print(intersect(arr1, arr2))
+
+
+# 2. Write a function that accepts an array of strings and returns the first duplicate value it finds. For example, if the array is ["a", "b", "c", "d", "c", "e", "f"], the function should return "c", since it’s duplicated within the array.

@@ -19,3 +19,14 @@ print(intersect(arr1, arr2))
 
 
 # 2. Write a function that accepts an array of strings and returns the first duplicate value it finds. For example, if the array is ["a", "b", "c", "d", "c", "e", "f"], the function should return "c", since it’s duplicated within the array.
+def duplicate_value(array):
+    hash_table = {}
+    
+    for number in array:
+        if number in hash_table:
+            return number
+        else:
+            hash_table[number] = True
+            
+array = ["a", "b", "c", "d", "c", "e", "f"]
+print(duplicate_value(array))

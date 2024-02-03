@@ -30,3 +30,19 @@ def duplicate_value(array):
             
 array = ["a", "b", "c", "d", "c", "e", "f"]
 print(duplicate_value(array))
+
+
+# 3. Write a function that accepts a string that contains all the letters of the alphabet except one and returns the missing letter. For example, the string, "the quick brown box jumps over a lazy dog" contains all the letters of the alphabet except the letter, "f".
+
+def missing_letter(phrase):
+    hash_table = {}
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    
+    for letter in alphabet:
+        hash_table[letter] = True
+    
+    for letter in phrase.lower():
+        if letter in hash_table:
+            return letter
+    
+print(missing_letter("The quick brown box jumps over a lazy dog"))

@@ -46,3 +46,21 @@ def missing_letter(phrase):
             return letter
     
 print(missing_letter("The quick brown box jumps over a lazy dog"))
+
+
+# 4. Write a function that returns the first non-duplicated character in a string. For example, the string, "minimum" has two characters that only exist once—the "n" and the "u", so your function should return the "n", since it occurs first.
+
+def non_dupe(word):
+    hash_table = {}
+
+    for letter in word.lower():
+        if letter in hash_table:
+            hash_table[letter] += 1
+        else:
+            hash_table[letter] = 1
+    
+    for letter in word.lower():
+        if hash_table[letter] == 1:
+            return letter
+        
+print(non_dupe("minimum"))
